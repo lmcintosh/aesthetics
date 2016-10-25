@@ -12,7 +12,7 @@ setup(name = 'aesthetics',
         classifiers = [
             'Intended Audience :: Science/Research',
             'Operating System :: MacOS :: MacOS X',
-            'Topic :: Utilities],
+            'Topic :: Utilities'],
         packages = ['aesthetics'],
         package_dir = {'aesthetics': 'aesthetics/'},
         py_modules = ['aesthetics']
