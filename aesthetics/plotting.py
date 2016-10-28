@@ -1,6 +1,7 @@
-def adjust_spines(ax, spines):
-    "Removes framing in matplotlib plots.
-    Example usage is adjust_spines(plt.gca(), ['left', 'bottom'])"
+def adjust_spines(ax, spines=['left','bottom']):
+    """Removes framing in matplotlib plots.
+    Example usage is adjust_spines(plt.gca(), ['left', 'bottom'])
+    """
 
     for loc, spine in ax.spines.items():
         if loc in spines:
